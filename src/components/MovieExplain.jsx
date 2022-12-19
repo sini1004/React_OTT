@@ -17,7 +17,7 @@ const MovieExplain = ({item, videoId}) => {
               <Badge bg="success" className='detail_badge' key={item.id}>{item.name}</Badge>
             ))}
             <h1>{item.title}</h1>
-            <h1>{item.tagline}</h1>
+            <h2>{item.tagline}</h2>
             <div className='detail_info'>
               <p>⭐️ {item.vote_average}</p>
               <span>👥 {item.popularity}</span>
